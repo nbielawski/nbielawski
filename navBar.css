@@ -1,0 +1,5 @@
+#navBarLinks:hover {
+transition:         transform .8s ease-in-out;
+	transform: rotateY(360deg);
+	color: blue;
+}

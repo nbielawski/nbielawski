@@ -1,0 +1,213 @@
+
+
+.face{
+  width: 150px;
+  height: 150px;
+  background-color:blue;
+  margin-top: 75px;
+  margin-left: 130px;
+  border-radius: 50px;
+}
+
+.lefteye{
+  width:16px;
+  height:26px;
+  background-color:red;
+  border-radius:2px;
+  position: relative;
+ left: 40px;
+  top: 50px;
+}
+
+#inner-left-eye{
+  height:6px;
+  width: 4px;
+  background-color: black;
+  margin-left: 6px;
+  margin-top:px;
+}
+
+.right-eye{
+    width:26px;
+  height:22px;
+  background-color:red;
+  border-radius:9px;
+  position: relative;
+ left: 90px;
+  top: 8px;
+  
+}
+
+#inner-right-eye{
+  height:6px;
+  width: 4px;
+  background-color: black;
+ position: relative;
+  top: 5px;
+  left: 10px;
+  
+}
+.mouth{
+    width:60px;
+  height:16px;
+  background-color:red;
+ border-style:ridge;
+  border-radius:2px;
+  border-color: pink;
+  position: relative;
+ left:90px ;
+  top: 40px;
+}
+
+.left-tooth{
+   width:6px;
+  height:10px;
+  background-color:yellow;
+  border-radius:2px;
+  position: relative;
+ left: 8px;
+  top: 0px;
+}
+
+.right-tooth{
+   width:6px;
+  height:10px;
+  background-color:yellow;
+  border-radius:2px;
+  position: relative;
+ left: 45px;
+  top: -10px;
+}
+
+.hat{
+  width:150px;
+  height: 20px;
+  border-style: solid;
+  border-color: purple;
+  background-color:pink;
+  position: relative;
+  z-index:2;
+  left: 128px;
+  top: 200px
+}
+.hat2{
+  width:140px;
+  height: 90px;
+  border-style: solid;
+  border-color: pink;
+  border-width:10;
+  background-color: purple;
+    z-index: 1;
+  position: relative;
+  left:136px;
+  top: 90px;
+}
+.wrapper{
+   background-color: yellow;
+  
+  
+}
+
+.creature1{
+  animation: bounce 5s both infinite normal;
+}
+
+@keyframes bounce {
+  from {transform: translateX(-120%)}
+    to{transform: translateY(-17%)}
+}
+
+
+.face2{
+  width: 150px;
+  height: 150px;
+  background-color:pink;
+  
+  margin-left: 1px;
+  border-radius: 50px;
+}
+
+.righteye2{
+  width:16px;
+  height:26px;
+  background-color:white;
+  border-radius:2px;
+  
+ left: 40px;
+  top: 50px;
+}
+
+#inner-left-eye2{
+  height:6px;
+  width: 4px;
+  background-color: black;
+  margin-left: 6px;
+  margin-top:px;
+}
+
+.lefteye2{
+    width:26px;
+  height:22px;
+  background-color:white;
+  border-radius:9px;
+  position: relative;
+ left: 40px;
+  top: 20px;
+  
+}
+
+#inner-right-eye2{
+  height:6px;
+  width: 4px;
+  background-color: black;
+ position: relative;
+  top: 5px;
+  left: 10px;
+  
+}
+.mouth2{
+    width:60px;
+  height:16px;
+  background-color:red;
+ border-style:ridge;
+  border-radius:2px;
+  border-color: pink;
+  position: relative;
+ 
+  top: 38%;
+}
+
+
+
+.hat3{
+  width:150px;
+  height: 20px;
+  border-style: solid;
+  border-color: purple;
+  background-color:brown;
+  position: relative;
+  z-index:2;
+  
+  top: 100px
+}
+.hat4{
+  width:140px;
+  height: 90px;
+  border-style: solid;
+  border-color: pink;
+  border-width:10;
+  background-color: green;
+    z-index: 1;
+  position: relative;
+  
+  
+}
+.wrapper2{
+  display:inline-block;
+  float: right;
+  background-color:yellow;
+}
+
+
+.doubleWrapper{
+  background-color: yellow;
