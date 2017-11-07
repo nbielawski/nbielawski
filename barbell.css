@@ -1,0 +1,44 @@
+
+.barbell {
+  display: inline-block;
+  height: 109px; 
+    margin-left: 8%;
+  width: 554px;
+}
+.plate {
+  background: radial-gradient(circle, #1372d0,#444444);
+  border: 2px solid #000000;
+  border-radius: 10%;
+  display: inline-block;
+  height: 100px;
+  margin: 0 1px;
+  width: 25px;
+}
+
+.bar {
+  background: radial-gradient(#495057,#bbbbbb);
+  border: 2px solid #000000;
+  bottom: 43px;
+  display: inline-block;
+  height: 12px;  
+  position: relative;
+  width: 300px;
+}
+
+.collar {
+  border: 2px solid #000000;
+  bottom: 40px;
+  display: inline-block;
+  height: 20px;
+  margin: 0 1px;
+  position: relative;
+  width: 25px;
+}
+
+.collarLeft {
+  background: radial-gradient(at right, #495057,#bbbbbb);
+}
+
+.collarRight {
+  background: radial-gradient(at left, #495057,#bbbbbb);
+}

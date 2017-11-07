@@ -36,3 +36,7 @@ transition:         transform .8s ease-in-out;
 	 border-bottom: none;
 
 }
+
+.socIcon{
+	margin-left: 29%;
+}

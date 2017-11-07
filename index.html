@@ -27,6 +27,7 @@
     <link href="css/resume.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="0.06_css_creature.css">
     <link rel="stylesheet" type="text/css" href="navBar.css">
+    <link rel="stylesheet" type="text/css" href="barbell.css">
 
   </head>
 
@@ -55,7 +56,7 @@
           <li class="nav-item">
             <a id="navBarLinks" class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          
+           
         </ul>
       </div>
     </nav>
@@ -72,7 +73,7 @@
           </div>
           
          
-          <ul class="list-inline list-social-icons mb-0">     
+          <ul class="list-inline list-social-icons mb-0 socIcon">     
          
             <li class="list-inline-item">
               <a id="socialLinks" href="https://linkedin.com/in/nicholas-bielawski-bb4963151">
@@ -83,7 +84,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a id="socialLinks" href="/Resume.pdf">
+              <a id="socialLinks" href="https://github.com/nbielawski">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>                            
@@ -109,7 +110,7 @@
             </li>
           </ul>
 
-          <!-- Modal -->
+          <!-- Modal Trigger-->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
@@ -121,29 +122,48 @@
           <h4 class="modal-title"></h4>
         </div>
         <div id="modalBody">
-        <div class="row">
-        <form method="POST" action="http://formspree.io/nbielawski12@gmail.com">          
-            <input id="modalEmailInput" type="email" name="email" placeholder="Your email">
+          <div class="row">
+            <form method="POST" action="https://formspree.io/nbielawski12@gmail.com">          
+              <input id="modalEmailInput" type="email" name="email" placeholder="Your email">
           </div>
           <div  class="row">
             <textarea id="modalMessageInput" name="message" placeholder="Your message"></textarea>
           </div>
-
-</div>
+        </div>
         <div class="modal-footer">
           <button type="submit" class="btn btn-default">Send</button>
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
         </form>
       </div>
-      
     </div>
-  </div>
-  
+     </div>
+     <!--End Modal-->
+        <!--Start Barbell -->
+        <div class="barbell">
+  <div class="collar collarLeft"> 
+  </div
+  ><div class="plate">
+      </div
+  ><div class="plate">
+      </div
+  ><div class="plate">
+      </div
+  ><div class="bar">
+      </div
+  ><div class="plate">
+      </div
+  ><div class="plate">
+      </div
+  ><div class="plate">
+      </div  
+  ><div class="collar collarRight">
+      </div>
 </div>
 
+        <!--End Barbell -->
 
-        </div>
+
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
@@ -178,14 +198,14 @@
               <div class="subheading mb-3">
                 <i class="devicons devicons-html5"></i>
                 <i class="devicons devicons-css3"></i>
-                <i class="devicon-bootstrap-plain-wordmark"></i>
+                
               </div>
             </div>           
           </div>
 
 <!--start of creature -->
  
-<div class= row>
+<div id="creature" class= row>
     <div class="col-md-4 wrapper">
         <div class="creature1">
               <div class="hat"></div>
@@ -260,6 +280,7 @@
           <p>Apart from aspiring to be a web developer, I am a competive strongman with a goal to one day compete in the World's Strongest Man contest. </p>
           <p class="mb-0">On the rare occasion that I am not at my computer, or lifting stones and pulling trucks, I enjoy watching movies and reading, mostly non-fiction. </p>
         </div>
+
       </section>
     
     </div>
