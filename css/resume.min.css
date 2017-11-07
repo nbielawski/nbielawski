@@ -20,7 +20,7 @@
  	.list-social-icons a .fa-lg{font-size:1.75rem}
  	.list-icons{font-size:3rem}
  	.list-icons .list-inline-item 
- 	i:hover{color:#bd5d38}
+ 	i:hover{color:#086bce}
  	#sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase}
  	@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}
  	#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}
@@ -35,4 +35,9 @@
  	section.resume-section .resume-item .resume-date{min-width:18rem}}
  	@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
  	.bg-primary{background-color:black!important}
- 	.text-primary{color:#134577!important}a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
+ 	.text-primary{color:#134577!important}a{color:#086bce}a:active,a:focus,a:hover{color:#086bce}
+
+ 	#storeApp{
+ 		height: 450px;
+ 		width: 700px;
+ 	}
