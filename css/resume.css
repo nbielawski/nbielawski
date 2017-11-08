@@ -31,6 +31,7 @@ h1 {
 h2 {
   font-size: 3.5rem; }
 
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -114,3 +115,4 @@ a {
   
   a:hover, a:focus, a:active {
     color: #824027; }
+
