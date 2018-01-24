@@ -104,7 +104,8 @@
 }
 .wrapper{
    background-color: yellow;
-  
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWx4WdR2MFqGqVK1US9MDC6WcwE-hqRQg-RJg5xKh2dyQlbIw");
+  background-size: cover;
   
 }
 
@@ -206,11 +207,14 @@
   display:inline-block;
   float: right;
   background-color:yellow;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWx4WdR2MFqGqVK1US9MDC6WcwE-hqRQg-RJg5xKh2dyQlbIw");
+  background-size: cover;
 }
 
 
 .doubleWrapper{
-  background-color: yellow;
+
+  
  
 }
 
